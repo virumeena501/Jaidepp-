@@ -1,324 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Official Community</title>
-
-<meta name="description"
-content="Join our official community for regular updates, useful resources, and important information.">
-
+<title>VIP CHANNEL WITH TEAM JACK</title>
+<meta name="description" content="Join VIP Channel with Team Jack for exclusive updates and member-only content.">
 <meta name="robots" content="index, follow">
+<meta name="theme-color" content="#050505">
 
-<!-- =========================
-     META PIXEL
-========================= -->
+<!-- META PIXEL -->
 <script>
 !function(f,b,e,v,n,t,s)
-{
-  if(f.fbq)return;
-
-  n=f.fbq=function(){
-    n.callMethod ?
-    n.callMethod.apply(n,arguments) :
-    n.queue.push(arguments)
-  };
-
-  if(!f._fbq)f._fbq=n;
-
-  n.push=n;
-  n.loaded=true;
-  n.version='2.0';
-  n.queue=[];
-
-  t=b.createElement(e);
-  t.async=true;
-  t.src=v;
-
-  s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)
-}
-(window, document,'script',
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-/* SAME PIXEL ID EVERYWHERE */
-fbq('init', '1412937317416352');
-
-/* PageView ONLY */
-fbq('track', 'PageView');
+fbq('init','YOUR_PIXEL_ID_HERE');
+fbq('track','PageView');
 </script>
 
-<noscript>
-<img
-  height="1"
-  width="1"
-  style="display:none"
-  src="https://www.facebook.com/tr?id=28442935198644809&ev=PageView&noscript=1"
-/>
-</noscript>
-
-<!-- =========================
-     STYLE
-========================= -->
 <style>
-
-* {
-  box-sizing: border-box;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: Arial, sans-serif;
-
+body{
+  min-height:100vh;
   background:
-    radial-gradient(circle at top, #123746 0%, #061923 45%, #020b11 100%);
-
-  color: white;
-  text-align: center;
+    radial-gradient(circle at 50% 10%,rgba(255,190,0,.12),transparent 30%),
+    linear-gradient(180deg,#030303,#0b0b0b,#000);
+  color:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+  display:flex;
+  justify-content:center;
+  padding:45px 14px 30px;
 }
 
-.container {
-  padding: 45px 18px;
+.container{
+  width:100%;
+  max-width:650px;
 }
 
-.card {
-  width: 100%;
-  max-width: 400px;
-
-  margin: auto;
-  padding: 28px 22px;
-
-  border-radius: 18px;
-
-  background: rgba(255,255,255,0.06);
-
-  border: 1px solid rgba(0,198,255,0.15);
-
-  box-shadow:
-    0 0 30px rgba(0,198,255,0.12);
-
-  backdrop-filter: blur(12px);
+.card{
+  border:1px solid rgba(255,190,0,.5);
+  border-radius:38px;
+  background:linear-gradient(145deg,#181818,#080808);
+  padding:42px 30px 34px;
+  box-shadow:0 20px 70px rgba(0,0,0,.65);
 }
 
-h1 {
-  margin: 8px 0 18px;
-
-  font-size: 29px;
-  line-height: 1.2;
+.logo{
+  width:230px;
+  height:230px;
+  margin:0 auto 30px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  border:2px solid #d69e00;
+  background:#111;
+  color:#ffbd13;
+  font-size:34px;
+  font-weight:800;
+  text-align:center;
 }
 
-.description {
-  color: #bfc8cd;
-
-  font-size: 16px;
-  line-height: 1.6;
-
-  margin-bottom: 25px;
+.title{
+  text-align:center;
+  font-size:clamp(30px,6vw,48px);
+  line-height:1.08;
+  font-weight:500;
+  margin-bottom:22px;
 }
 
-.features {
-  text-align: left;
-
-  margin: 20px 0;
-  padding: 18px;
-
-  border-radius: 14px;
-
-  background: rgba(255,255,255,0.05);
-
-  color: #d8dfe2;
-
-  line-height: 2;
+.badge{
+  width:max-content;
+  margin:0 auto 23px;
+  padding:11px 22px;
+  border:2px solid #d69e00;
+  border-radius:999px;
+  color:#f4bd1a;
+  font-size:17px;
+  font-weight:700;
 }
 
-.feature {
-  margin: 2px 0;
+.subtitle{
+  text-align:center;
+  color:#aaa;
+  font-size:20px;
+  line-height:1.45;
+  margin-bottom:38px;
 }
 
-.check {
-  color: #00d9ff;
-  font-weight: bold;
+.vip-box{
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:28px;
+  padding:31px 32px 30px;
+  background:#0b0b0b;
 }
 
-.join-btn {
-  width: 100%;
-
-  border: none;
-
-  padding: 16px 20px;
-
-  border-radius: 30px;
-
-  font-size: 17px;
-  font-weight: bold;
-
-  color: #001018;
-
-  background:
-    linear-gradient(90deg, #00c6ff, #0072ff);
-
-  cursor: pointer;
-
-  box-shadow:
-    0 5px 20px rgba(0,114,255,0.25);
-
-  transition: transform 0.2s;
+.vip-title{
+  font-size:29px;
+  margin-bottom:22px;
 }
 
-.join-btn:active {
-  transform: scale(0.97);
+.description{
+  color:#c1c1c1;
+  font-size:20px;
+  line-height:1.65;
+  margin-bottom:27px;
 }
 
-.join-btn:disabled {
-  opacity: 0.7;
-  cursor: wait;
+.feature{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  color:#cfcfcf;
+  font-size:19px;
+  margin:20px 0;
 }
 
-.notice {
-  margin-top: 18px;
-
-  color: #aeb8bd;
-
-  font-size: 13px;
+.check{
+  flex:0 0 34px;
+  width:34px;
+  height:34px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#ffbd13;
+  color:#111;
+  font-size:22px;
+  font-weight:900;
 }
 
-.footer {
-  margin-top: 28px;
-
-  color: #858f94;
-
-  font-size: 12px;
-
-  line-height: 1.6;
+.join-button{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  min-height:76px;
+  margin-top:29px;
+  padding:18px 20px;
+  border-radius:25px;
+  background:linear-gradient(100deg,#ffb300,#ffd21a);
+  color:#090909;
+  text-decoration:none;
+  font-size:22px;
+  font-weight:600;
+  transition:.2s;
 }
 
+.join-button:hover{
+  transform:translateY(-2px);
+  filter:brightness(1.06);
+}
+
+.arrow{
+  font-size:27px;
+  margin-left:9px;
+}
+
+.terms{
+  text-align:center;
+  color:#777;
+  font-size:14px;
+  line-height:1.5;
+  margin-top:24px;
+}
+
+@media(max-width:520px){
+
+  body{
+    padding:40px 13px 25px;
+  }
+
+  .card{
+    padding:35px 22px 30px;
+    border-radius:32px;
+  }
+
+  .logo{
+    width:200px;
+    height:200px;
+  }
+
+  .title{
+    font-size:34px;
+  }
+
+  .subtitle{
+    font-size:18px;
+  }
+
+  .vip-box{
+    padding:27px 23px;
+  }
+
+  .description{
+    font-size:18px;
+  }
+
+  .feature{
+    font-size:17px;
+  }
+
+  .join-button{
+    min-height:72px;
+    font-size:19px;
+  }
+}
 </style>
-
 </head>
 
 <body>
 
 <div class="container">
 
-  <div class="card">
+<div class="card">
 
-    <h1>
-      VIP CHANNEL WITH TEAM JACK 
-    </h1>
+<!-- DP -->
+<div class="logo">
+TEAM<br>JACK
+</div>
 
-    <p class="description">
-      Stay updated with the latest information,
-      helpful resources, and important community
-      updates in one place.
-    </p>
+<h1 class="title">
+VIP CHANNEL WITH TEAM JACK
+</h1>
 
-    <div class="features">
+<div class="badge">
+♛ PRIVATE CHANNEL
+</div>
 
-      <div class="feature">
-        <span class="check">✔</span>
-        Regular Updates
-      </div>
+<p class="subtitle">
+Exclusive updates &amp; member-only content
+</p>
 
-      <div class="feature">
-        <span class="check">✔</span>
-        Helpful Resources
-      </div>
+<div class="vip-box">
 
-      <div class="feature">
-        <span class="check">✔</span>
-        Active Community
-      </div>
+<h2 class="vip-title">
+🔥 VIP ACCESS
+</h2>
 
-    </div>
+<p class="description">
+Join the private channel to receive the latest updates
+and member-only posts.
+</p>
 
-    <!--
-      IMPORTANT:
-      Telegram link is opened by JavaScript
-      only after the user actually clicks.
-    -->
+<div class="feature">
+<span class="check">✓</span>
+<span>Private channel access</span>
+</div>
 
-    <button
-      id="joinButton"
-      class="join-btn"
-      type="button">
+<div class="feature">
+<span class="check">✓</span>
+<span>Regular updates</span>
+</div>
 
-      JOIN THE TELEGRAM 
+<div class="feature">
+<span class="check">✓</span>
+<span>Member-only posts</span>
+</div>
 
-    </button>
-
-    <div class="notice">
-      Limited Access – For community members
-    </div>
-
-    <div class="footer">
-
-      This page is for informational purposes only.<br>
-
-      We are not affiliated with any official organization.
-
-    </div>
-
-  </div>
+<a
+class="join-button"
+href="https://t.me/+Pm5zG_WJqw9lOGM1"
+target="_blank"
+rel="noopener noreferrer"
+onclick="fbq('track','Lead');"
+>
+JOIN PRIVATE CHANNEL
+<span class="arrow">→</span>
+</a>
 
 </div>
 
+<p class="terms">
+By continuing, you agree to Telegram's terms and applicable rules.
+</p>
 
-<!-- =========================
-     BUTTON TRACKING
-========================= -->
-
-<script>
-
-const joinButton = document.getElementById("joinButton");
-
-let leadSent = false;
-
-joinButton.addEventListener("click", function () {
-
-  /*
-    Prevent multiple clicks from generating
-    multiple Lead events.
-  */
-  if (leadSent) {
-    return;
-  }
-
-  leadSent = true;
-
-  joinButton.disabled = true;
-  joinButton.innerText = "Opening Community...";
-
-
-  /*
-    Send Lead ONLY after the user
-    physically clicks the button.
-  */
-
-  fbq('track', 'Lead', {
-    content_name: 'Community Join',
-    value: 1,
-    currency: 'INR'
-  });
-
-
-  /*
-    Small delay gives the browser time
-    to send the Meta event before Telegram opens.
-  */
-
-  setTimeout(function () {
-
-    window.location.href =
-      "https://t.me/+_6O5SE00xrkxMjY1";
-
-  }, 200);
-
-});
-
-</script>
+</div>
+</div>
 
 </body>
-</html>  
+</html>
